@@ -1,9 +1,7 @@
 packages:
-  - package: dbt-labs/dbt_utils
-    version: 1.0.0
+  - local: 'C:/Users/dchocano/repos/dbt-tutorial-course/dbt_packages/dbt-utils-1.0.0/dbt-utils-1.0.0'
 
-  - package: calogica/dbt_expectations
-    version: [">=0.8.0", "<0.9.0"]
+  - local: 'C:/Users/dchocano/repos/dbt-tutorial-course/dbt_packages/dbt-codegen-0.9.0/dbt-codegen-0.9.0'
+  
+  - local: 'C:/Users/dchocano/repos/dbt-tutorial-course/dbt_packages/dbt-expectations-0.8.0/dbt-expectations-0.8.0'
 
-  - package: dbt-labs/codegen
-    version: 0.9.0
